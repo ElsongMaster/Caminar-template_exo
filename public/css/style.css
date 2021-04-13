@@ -1,0 +1,224 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.boxShadowT {
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.boxShadowLR {
+
+}
+
+.boxShadowB {
+    
+}
+
+header {
+    text-align: center;
+    color: white;
+    line-height: 1;
+}
+
+.headerTitre {
+    margin: 70px 0px;
+}
+
+header h1 {
+    font-size: 65px;
+    margin-bottom: 0%;
+}
+
+header p {
+    font-weight: lighter;
+    margin-top: 0%;
+}
+
+.containerBlanc {
+    margin: 0% 16%;
+    background-color: white;
+}
+
+.Img02 img {
+    width: 100%;
+}
+
+.titre1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.titre1>p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: rgb(202, 188, 188);
+    letter-spacing: 3px;
+    padding-bottom: 60px;
+    margin-bottom: 0%;
+}
+
+.titre1>p::before {
+    content: "";
+    position: absolute;
+    text-align: center;
+    width: 110px;
+    height: 1px;
+    margin-top: -12px;
+    background-color: rgb(202, 188, 188);
+}
+
+.Beige {
+    color: gray;
+    background-color: rgb(248, 242, 232);
+    margin: 0% 16%;
+}
+
+.contenu2 {
+    padding: 7%;
+    margin: 0%;
+}
+
+.contenu2>p:first-of-type {
+    margin-bottom: 30px;
+}
+
+.Bmarine {
+    background-color: rgb(21, 25, 36);
+    margin: 0% 16%;
+    padding: 5%;
+}
+
+.titre2 {
+    text-align: center;
+    background-color: rgb(1, 5, 15);
+    padding: 15px;
+}
+
+.titre2>h2 {
+    color: white;
+}
+
+.titre2>p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: rgb(119, 111, 111);
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+    margin-bottom: 0%;
+}
+
+.titre2>p::before {
+    content: "";
+    position: absolute;
+    text-align: center;
+    width: 110px;
+    height: 1px;
+    margin-top: -12px;
+    background-color: rgb(119, 111, 111);
+}
+
+.gallerie1 {
+    display: flex;
+}
+
+.gallerie1 div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallerie1 img {
+    width: 100%;
+}
+
+.container {
+    margin: 0% 16%;
+}
+
+.flex {
+    display: flex;
+}
+
+.Img {
+    flex: 1;
+    width: 50%;
+}
+
+.vide {
+    background-color: rgb(248, 242, 232);
+    padding-top: 5%;
+    flex: 1;
+}
+
+.description1 {
+    background-color: white;
+}
+
+.description1>div {
+    padding: 7%;
+    margin: 9%;
+    margin-bottom: 0%;
+}
+
+.description2 {
+    background-color: rgb(21, 25, 36);
+    flex: 1;
+    width: 50%;
+}
+
+.description2>div {
+    padding: 7%;
+    margin: 9%;
+    margin-bottom: 0%;
+    text-align: right;
+}
+
+.description2 h3 {
+    color: white;
+}
+
+.description2 p {
+    color: rgb(119, 111, 111);
+}
+
+.Img07 {
+    flex: 1;
+    width: 50%;
+    padding: 0%;
+}
+
+.Img07>img {
+    width: 100%;
+}
+
+footer {
+    color: rgb(119, 111, 111);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px;
+}
+
+.icons i {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.copyright p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+}
